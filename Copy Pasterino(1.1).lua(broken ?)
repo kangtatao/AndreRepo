@@ -22,16 +22,16 @@ function OnLoad()
 function OnWndMsg(msg, wParam)
     if CopyPasterinoConfig.tchat == true then
         pasterino = GetClipboardText()
-            if pasterino == nil then 
-                end
-            else        
+       --     if pasterino == nil then 
+       --         end
+       --     else        
         SendChat(pasterino)
   end
 		if CopyPasterinoConfig.achat == true then
         pasterino = GetClipboardText()
-            if pasterino == nil then
-                end
-             else
+        --    if pasterino == nil then
+        --        end
+        --     else
         SendChat("/all " .. pasterino)
 				end
 end
