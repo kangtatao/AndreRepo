@@ -389,7 +389,7 @@ end
 function OnLoad()
 	GoodEvadeConfig = scriptConfig("Good Evade", "goodEvade")
 	GoodEvadeConfig:addParam("dodgeEnabled", "Dodge Skillshots", SCRIPT_PARAM_ONOFF, true)
-	GoodEvadeConfig:addParam("Flash", "Use flash to dodge"), SCRIPT_PARAM_ONOFF, true)
+	GoodEvadeConfig:addParam("Flash", "Use Flash to dodge", SCRIPT_PARAM_ONOFF, true)
 	GoodEvadeConfig:addParam("drawEnabled", "Draw Skillshots", SCRIPT_PARAM_ONOFF, true)
 	GoodEvadeConfig:addParam("dodgeCConly", "Dodge CC only spells", SCRIPT_PARAM_ONKEYDOWN, false, 32)
 	GoodEvadeConfig:addParam("dodgeCConly2", "Dodge CC only spells toggle", SCRIPT_PARAM_ONKEYTOGGLE, false, 77)
