@@ -6,8 +6,8 @@ http://botoflegends.com/forum/topic/19526-fssfast-strategic-start/]]
 
 local version = "1.02"
 local CheckForUpdates = true
-local UPDATE_HOST = 'bitbucket.org'
-local UPDATE_PATH = '/andreluis034/andrerepo/raw/master/FastStrategyStart.lua?rand='..math.random(1,10000) -- 'Disable' caching to prevent older versions from being retrieved
+local UPDATE_HOST = 'raw.githubusercontent.com'
+local UPDATE_PATH = '/andreluis034/AndreRepo/master/FastStrategyStarter.lua?rand='..math.random(1,10000) -- 'Disable' caching to prevent older versions from being retrieved
 local UPDATE_FILE_PATH = SCRIPT_PATH..'FastStrategyStart.lua'
 local UPDATE_URL = 'https://'..UPDATE_HOST..UPDATE_PATH
 local ServerData
